@@ -1,0 +1,21 @@
+#variables - data values that can be changed
+#variables are used to store data that can be referenced and used by the program
+
+name = "Melissa"
+print(name)
+
+name = input("\nWhat is your name? ")
+length = len(name)
+print(length)
+
+# Write a program that switches the values stored in the variables a and b.
+a = input("\na: ")
+b = input("b: ")
+
+c = a
+a = b
+b = c
+
+print("\na: " + a)
+print("b: " + b)
+
