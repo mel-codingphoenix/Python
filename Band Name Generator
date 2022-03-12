@@ -1,0 +1,17 @@
+#1. Create a greeting for your program.
+greeting = "Hello! Welcome to Mel's Band Name Generator!\n"
+print(greeting)
+
+#2. Ask the user for their name.
+name = (input("What's your name?\n"))
+
+#3. Ask the user for the city that they grew up in.
+city = input("Which city did you grew up in?\n")
+
+#4. Ask the user for the name of a pet.
+pet = input("What's the name of a pet?\n")
+
+#5. Combine the name of their city and pet and show them their band name.
+band_name = city + " " + pet + "\n"
+print(name + "," + " your band name could be " + band_name)
+
